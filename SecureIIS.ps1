@@ -88,7 +88,7 @@ Set-Service SNMPTRAP -StartupType Automatic
 Write-Host "Completed!" -ForegroundColor Green
 }
 if($Choice -eq 3){
-#Rollback Deployment
+#Rollback Deployment Dependant on setup of Machine.
 Write-Host "Restarting Server!" -ForegroundColor Green
 Restart-Computer 
 }
